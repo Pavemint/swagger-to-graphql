@@ -69,7 +69,7 @@
     "lint:fix": "npm run lint -- --fix",
     "prepare": "npm run build",
     "start": "npm run example",
-    "test": "TS_NODE_COMPILER=ttypescript mocha",
+    "test": "TS_NODE_COMPILER=typescript mocha",
     "test:watch": "npm run test -- --watch",
     "example": "ts-node example/app"
   }
